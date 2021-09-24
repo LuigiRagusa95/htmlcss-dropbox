@@ -34,6 +34,7 @@ img {
 .clearfix::after { clear: both; content: ''; display: table; }
 
 /* POSITION */
+.fixed { position: fixed; }
 .relative { position: relative; }
 
 /* TOP/RIGHT/BOTTOM/LEFT */
@@ -54,7 +55,9 @@ img {
 
 /* PADDING */
 .p-8 { padding: 8px; }
+
 .pt-8 { padding: 8px; }
+.pt-72 { padding-top: 72px; }
 
 .px-16 { padding: 0 16px; }
 .py-16 { padding: 16px 0; }
@@ -86,6 +89,9 @@ img {
 /* FLOAT */
 .fl { float: left; }
 .fr { float: right; }
+
+/* Z-INDEX */
+.z-top { z-index: 9999; }
 
 /* WIDTH */
 .w-20 { width: 20%; }
