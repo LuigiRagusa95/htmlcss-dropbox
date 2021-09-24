@@ -78,6 +78,8 @@ img {
 .pt-192 { padding-top: 192px; }
 .pt-240 { padding-top: 240px; }
 
+.pb-8 { padding-bottom: 8px; }
+
 .px-16 { padding: 0 16px; }
 
 .py-4 { padding: 4px 0; }
@@ -190,6 +192,7 @@ img {
 .bd-2 { border: 2px solid #d0d0d3; }
 
 /* MISC */
+.hr { border: 0; padding: 4px 0; border-bottom: 1px solid #d0d0d3; }
 .btn-sm { padding: 6px 18px; }
 .pointer { cursor: pointer; }
 .link:hover { text-decoration: underline; }
