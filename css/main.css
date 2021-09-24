@@ -29,14 +29,20 @@ img {
     display: block;
 }
 
+hr {
+    border: 1px solid #d0d0d3;
+}
+
 /* CLASSES */
 .container { width: 100%; margin: 0 auto; }
 .centered-y { display: inline-block; vertical-align: middle; }
 .clearfix::after { clear: both; content: ''; display: table; }
 
 /* DISPLAY */
+.table { display: table; }
 .block { display: block; }
 .i-block { display: inline-block; }
+.table-cell { display: table-cell; }
 
 /* POSITION */
 .fixed { position: fixed; }
@@ -112,6 +118,9 @@ img {
 .mb-192 { margin-bottom: 192px; }
 .mb-240 { margin-bottom: 240px; }
 
+.ml-16 { margin-left: 16px; }
+
+.mx-8 { margin: 0 8px; }
 .mx-16 { margin: 0 16px; }
 .mx-auto { margin: 0 auto; }
 
@@ -147,8 +156,8 @@ img {
 .fsz-14 { font-size: 14px; line-height: 20px; }
 .fsz-16 { font-size: 16px; line-height: 24px; }
 .fsz-18 { font-size: 18px; line-height: 24px; }
-.fsz-24 { font-size: 20px; line-height: 32px; }
-.fsz-28 { font-size: 20px; line-height: 36px; }
+.fsz-24 { font-size: 24px; line-height: 32px; }
+.fsz-28 { font-size: 28px; line-height: 36px; }
 .fsz-32 { font-size: 32px; line-height: 40px; }
 .fsz-36 { font-size: 36px; line-height: 48px; }
 .fsz-40 { font-size: 40px; line-height: 1; }
@@ -173,6 +182,7 @@ img {
 .ta-l { text-align: left; }
 .ta-r { text-align: right; }
 .ta-c { text-align: center; }
+.ta-j { text-align: justify; }
 
 .va-t { vertical-align: top; }
 .va { vertical-align: middle; }
@@ -191,10 +201,13 @@ img {
 .bd-1 { border: 1px solid #d0d0d3; }
 .bd-2 { border: 2px solid #d0d0d3; }
 
+/* OVERFLOW */
+.ov-h { overflow: hidden; }
+
 /* MISC */
-.hr { border: 0; padding: 4px 0; border-bottom: 1px solid #d0d0d3; }
+.hr { margin: 32px 16px 16px; }
 .btn-sm { padding: 6px 18px; }
 .pointer { cursor: pointer; }
 .link:hover { text-decoration: underline; }
-
+.h-same { padding-bottom: 20rem; margin-bottom: -20rem; }
 /* CHECKBOX BONUS */ 
