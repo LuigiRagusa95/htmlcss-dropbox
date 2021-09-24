@@ -67,6 +67,8 @@ img {
 /* MARGIN */
 .m-0 { margin: 0; }
 
+.mt-48 { margin: 48px 0; }
+
 .mr-16 { margin-right: 16px; }
 .mr-24 { margin-right: 24px; }
 
@@ -86,6 +88,7 @@ img {
 .mb-240 { margin-bottom: 240px; }
 
 .mx-auto { margin: 0 auto; }
+
 /* FLOAT */
 .fl { float: left; }
 .fr { float: right; }
@@ -147,5 +150,10 @@ img {
 .bg-blue-100 { background-color: #b4d0e7; }
 .bg-blue-400 { background-color: #0061ff; }
 
+/* BORDER */
+.bdb-1 { border-bottom: 1px solid #d0d0d3; }
+
 /* MISC */
 .btn-sm { padding: 6px 18px; }
+.pointer { cursor: pointer; }
+.link:hover { text-decoration: underline; }
