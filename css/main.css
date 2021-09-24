@@ -58,11 +58,13 @@ img {
 
 .pt-8 { padding: 8px; }
 .pt-72 { padding-top: 72px; }
+.pt-144 { padding-top: 144px; }
 
 .px-16 { padding: 0 16px; }
 .py-16 { padding: 16px 0; }
 
 .py-8 { padding: 8px 0; }
+.py-16 { padding: 16px 0; }
 
 /* MARGIN */
 .m-0 { margin: 0; }
@@ -140,6 +142,7 @@ img {
 
 .ta-l { text-align: left; }
 .ta-r { text-align: right; }
+.ta-c { text-align: center; }
 
 .va { vertical-align: middle; }
 
@@ -157,3 +160,5 @@ img {
 .btn-sm { padding: 6px 18px; }
 .pointer { cursor: pointer; }
 .link:hover { text-decoration: underline; }
+
+/* CHECKBOX BONUS */ 
