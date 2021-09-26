@@ -14,6 +14,7 @@ body { font-family: "Open Sans", sans-serif; }
 .pos-a { position: absolute; }
 
 .t-0 { top: 0; }
+.t-72 { top: 72px; }
 
 /* || --> Float */
 .fl-l { float: left; }
@@ -82,6 +83,7 @@ body { font-family: "Open Sans", sans-serif; }
 .p-56 { padding: 56px; }
 
 .pt-48 { padding-top: 48px; }
+.pt-72 { padding-top: 72px; }
 .pt-144 { padding-top: 144px; }
 
 .pr-16 { padding-right: 16px; }
@@ -155,6 +157,7 @@ body { font-family: "Open Sans", sans-serif; }
 
 /* || --> Misc */
 
+.z-top { z-index: 9999; }
 .cup { cursor: pointer; }
 .shadow-bottom-1 { box-shadow: 0 1px 0 0 #d0d0d3; }
 .clearfix::after { clear: both; content: ''; display: table;}
