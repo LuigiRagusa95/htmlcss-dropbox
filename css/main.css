@@ -13,6 +13,8 @@ body { font-family: "Open Sans", sans-serif; }
 .pos-r { position: relative; }
 .pos-a { position: absolute; }
 
+.t-0 { top: 0; }
+
 /* || --> Float */
 .fl-l { float: left; }
 .fl-r { float: right; }
@@ -154,6 +156,7 @@ body { font-family: "Open Sans", sans-serif; }
 /* || --> Misc */
 
 .cup { cursor: pointer; }
+.shadow-bottom-1 { box-shadow: 0 1px 0 0 #d0d0d3; }
 .clearfix::after { clear: both; content: ''; display: table;}
 
 .btn-md { padding: 4px 16px; font-size: 14px; line-height: 24px;}
