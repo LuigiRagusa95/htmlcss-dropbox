@@ -106,9 +106,6 @@ a { text-decoration: none; color: currentColor; }
 .py-144 { padding-top: 144px; padding-bottom: 144px; }
 
 /* || --> Borders */
-.bdw-2 { border-width: 2px; }
-.bds { border-style: solid; }
-
 .bd-top-1 { border-top: 1px solid #d0d0d3; }
 
 .bd-bottom-1 { border-bottom: 1px solid #d0d0d3; }
@@ -169,7 +166,6 @@ a { text-decoration: none; color: currentColor; }
 .btn-md { padding: 4px 16px; font-size: 14px; line-height: 24px;}
 .btn-xl { padding: 8px 20px; font-size: 16px; line-height: 24px;}
 .btn-black:hover { color: #ffffff; background-color: #1e1919; }
-.btn-black:hover { color: #ffffff; background-color: #162880; }
 .btn-black { border-width: 1px; border-color: #1e1919; border-style: solid; }
 
 .invert-black { filter: invert(100%); -webkit-filter: invert(100%); }
