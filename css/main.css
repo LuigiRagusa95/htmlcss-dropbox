@@ -112,6 +112,7 @@ a { text-decoration: none; color: currentColor; }
 .px-32 { padding-left: 32px; padding-right: 32px; }
 
 .py-4 { padding-top: 4px; padding-bottom: 4px; }
+.py-8 { padding-top: 8px; padding-bottom: 8px; }
 .py-32 { padding-top: 32px; padding-bottom: 32px; }
 .py-48 { padding-top: 48px; padding-bottom: 48px; }
 .py-64 { padding-top: 64px; padding-bottom: 64px; }
@@ -119,8 +120,8 @@ a { text-decoration: none; color: currentColor; }
 .py-144 { padding-top: 144px; padding-bottom: 144px; }
 
 /* || --> Borders */
+.bd-1 { border: 1px solid #b4d0e7; }
 .bd-top-1 { border-top: 1px solid #d0d0d3; }
-
 .bd-bottom-1 { border-bottom: 1px solid #d0d0d3; }
 .bd-bottom-2 { border-bottom: 2px solid #d0d0d3; }
 
@@ -143,6 +144,7 @@ a { text-decoration: none; color: currentColor; }
 .fsz-14 { font-size: 14px; line-height: 20px; }
 .fsz-16 { font-size: 16px; line-height: 24px; }
 .fsz-20 { font-size: 20px; line-height: 24px; }
+.fsz-24 { font-size: 24px; line-height: 32px; }
 .fsz-28 { font-size: 28px; line-height: 36px; }
 .fsz-32 { font-size: 32px; line-height: 40px; }
 .fsz-40 { font-size: 40px; line-height: 56px; }
@@ -213,7 +215,7 @@ a { text-decoration: none; color: currentColor; }
 	background-color: #ffffff;
 	transform: translate(-50%, -50%);
  }
- 
+
  input[type="radio"] { display: none; }
 
  input[type='radio']:checked + .radio-button {
