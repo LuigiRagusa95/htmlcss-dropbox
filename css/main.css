@@ -76,6 +76,7 @@ a { text-decoration: none; color: currentColor; }
 .mx-24 { margin-left: 24px; margin-right: 24px; }
 
 .my-auto { margin: auto 0; }
+.my-16 { margin-top: 16px; margin-bottom: 16px; }
 .my-32 { margin-top: 32px; margin-bottom: 32px; }
 .my-48 { margin-top: 48px; margin-bottom: 48px; }
 
