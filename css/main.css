@@ -49,6 +49,7 @@ a { text-decoration: none; color: currentColor; }
 .w-100p { width: 100%; }
 
 /* || --> Height */
+.h-0 { height: 0; }
 .h-24 { height: 24px; }
 
 .h-50p { height: 50%; }
@@ -79,6 +80,7 @@ a { text-decoration: none; color: currentColor; }
 .mx-8 { margin-left: 8px; margin-right: 8px; }
 .mx-16 { margin-left: 16px; margin-right: 16px; }
 .mx-24 { margin-left: 24px; margin-right: 24px; }
+.mx-32 { margin-left: 32px; margin-right: 32px; }
 
 .my-auto { margin: auto 0; }
 .my-16 { margin-top: 16px; margin-bottom: 16px; }
@@ -107,6 +109,7 @@ a { text-decoration: none; color: currentColor; }
 
 .px-16 { padding-left: 16px; padding-right: 16px; }
 .px-24 { padding-left: 24px; padding-right: 24px; }
+.px-32 { padding-left: 32px; padding-right: 32px; }
 
 .py-4 { padding-top: 4px; padding-bottom: 4px; }
 .py-32 { padding-top: 32px; padding-bottom: 32px; }
@@ -131,6 +134,7 @@ a { text-decoration: none; color: currentColor; }
 .bg-red { background-color: #f02022; }
 .bg-green { background-color: #a8d29b; }
 .bg-yellow { background-color: #fad736; }
+.bg-darkred { background-color: #c90722; }
 .bg-bordeaux { background-color: #5b0a2b; }
 .bg-darkblue { background-color: #162880; }
 .bg-lightblue { background-color: #b4d0e7; }
@@ -173,13 +177,15 @@ a { text-decoration: none; color: currentColor; }
 
 .z-top { z-index: 9999; }
 .cup { cursor: pointer; }
-.shadow-bottom-1 { box-shadow: 0 1px 0 0 #d0d0d3; }
 .clearfix::after { clear: both; content: ''; display: table;}
+
+.shadow-bottom-1 { box-shadow: 0 1px 0 0 #d0d0d3; }
+.invert-black { filter: invert(100%); -webkit-filter: invert(100%); }
+.shadown-inset-8 { box-shadow: inset 0 0 0 8px rgba(255, 255, 255, .4); }
 
 .btn-md { padding: 4px 16px; font-size: 14px; line-height: 24px;}
 .btn-xl { padding: 8px 20px; font-size: 16px; line-height: 24px;}
 .btn-black:hover { color: #ffffff; background-color: #1e1919; }
 .btn-black { border-width: 1px; border-color: #1e1919; border-style: solid; }
 
-.invert-black { filter: invert(100%); -webkit-filter: invert(100%); }
 .middle-absolute { top: 50%; left: 50%; position: absolute; transform: translate(-50%, -50%); }
