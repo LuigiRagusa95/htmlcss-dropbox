@@ -106,6 +106,7 @@ a { text-decoration: none; color: currentColor; }
 
 .pb-33p { padding-bottom: 33.333333%; }
 .pb-50p { padding-bottom: 50%; }
+.pb-100p { padding-bottom: 100%; }
 
 .pl-16 { padding-left: 16px; }
 .pl-32 { padding-left: 32px; }
