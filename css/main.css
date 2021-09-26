@@ -204,8 +204,8 @@ a { text-decoration: none; color: currentColor; }
 }
 
 /* || --> Animation */
-.anim-underline:hover { box-shadow: inset 0 -2px 0 0 #1e1919; }
 footer > div > div > ul li:not(.fw-700):hover { text-decoration: underline; }
 .anim-btn-blue:hover { color: #ffffff; background-color: #162880; transition: 200ms ease; }
 .anim-btn-black:hover { color: #ffffff; background-color: #1e1919; transition: 200ms ease; }
 .anim-btn-bordeaux:hover { color: #ffffff; background-color: #5b0a2b; transition: 200ms ease; }
+.anim-underline:hover { cursor: pointer; box-shadow: inset 0 -2px 0 0 #1e1919; transition: 200ms ease; }
