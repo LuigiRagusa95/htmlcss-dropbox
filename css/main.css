@@ -75,6 +75,7 @@ a { text-decoration: none; color: currentColor; }
 
 /* || --> Paddings */
 .p-8 { padding: 8px; }
+.p-16 { padding: 16px; }
 .p-32 { padding: 32px; }
 
 .pt-144 { padding-top: 144px; }
@@ -216,3 +217,9 @@ footer > div > div > ul li:not(.fw-700):hover { text-decoration: underline; }
 .accordion-button input:checked ~ p{ display: block; }
 .accordion-button input:checked ~ span:nth-child(3) { transform: rotate(180deg); transition: all .2s ease; }
 .accordion-button input:not(:checked) ~ span:nth-child(3) { transform: rotate(360deg); transition: all .2s ease; }
+
+/* Dropown animation */
+.dropdown li:hover { background-color: #f7f5f2; }
+.dropdown { display: none; white-space: nowrap; }
+
+header nav > ul > li:hover .dropdown { display: block; }
