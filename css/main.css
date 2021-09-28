@@ -163,6 +163,7 @@ a { text-decoration: none; color: currentColor; }
 .z-top { z-index: 9999; }
 .cup { cursor: pointer; }
 .clearfix::after { clear: both; content: ''; display: table;}
+.truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 .shadow-bottom-1 { box-shadow: 0 1px 0 0 #d0d0d3; }
 .invert-black { filter: invert(100%); -webkit-filter: invert(100%); }
